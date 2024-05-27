@@ -20,7 +20,7 @@ const App = () => {
      value={name}
      onChange={handleNameChanger}
      />
-   <p>{name}? Hello {name}!:" "</p>
+   <p id="maintitle">{name}? Hello {name}!:" "</p>
     </div>
   )
 }
